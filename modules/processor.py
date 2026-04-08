@@ -63,3 +63,14 @@ def calculate_recovery_score(df):
 
 # This module can be imported and `load_data()` can be called to obtain the cleaned DataFrame.
 # Adding function to the module, which can be called to compute the recovery score
+
+def process_data():
+    # Call load_data() to get the cleaned DataFrame
+    df = load_data()
+
+    # Call calculate_recovery_score() to add the Recovery Score
+    df = calculate_recovery_score(df)
+
+    # Return the final processed DataFrame
+    return df
+
