@@ -3,3 +3,5 @@ numpy==1.26.0
 pytest==7.4.2
 streamlit==1.27.0
 plotly==5.17.0
+statsmodels
+pillow>=10.0.0
